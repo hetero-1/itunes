@@ -93,3 +93,19 @@ body {
     margin: 20px;
     font-size: large;
 }
+ul :hover {
+    color: rgb(132, 132, 132);
+}
+ul li a {
+    margin: 30px;
+    color: rgb(252, 252, 252);
+}
+ul {
+    
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    background-color: rgb(57, 57, 57);
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
