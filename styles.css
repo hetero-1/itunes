@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Poppins:ital@0;1&display=swap');
+body{
+    background-color: rgb(172, 207, 195);
+    text-align: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    background-color: rgb(57, 57, 57);
+    height: 80px;
+}
+nav ul li a {
+    color: rgb(252, 252, 252);
+}
+
+nav ul :hover{
+    color: rgb(132, 132, 132) ;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+.brand img{
+    width: 95px;
+    height: 77px;
+    padding: 0 12px; 
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: 1.35rem;
+}
+.gif{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.gif img {
+    height: 100%;
+    width: 100%;
+}
+.click{
+    width: 50%;
+    border-radius: 20px;
+    padding: 30px;
+    position: fixed;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    background-color: rgb(175, 253, 253);       
+}
+
+.click button{
+ background-color:rgba(0, 255, 213, 0.317);
+ color: rgb(12, 12, 12);
+ padding: 10px 20px;
+ border-radius: 20px;
+ font-size: 20px;
+ border: none;
+ font-family: 'Poppins',sans-serif;;
+ cursor: pointer;
+}
+
+.click button:hover {
+    background-color: rgb(255, 255, 255);
+}
+.click h1{
+    font-family: 'Montserrat',sans-serif;
+}

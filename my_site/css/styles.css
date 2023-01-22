@@ -1,0 +1,90 @@
+body{
+    margin: 0rem;
+    text-align: center;
+    font-family: 'merriweather', sans-serif;
+}
+.top_container {
+    background-color: rgb(157, 251, 220);
+    margin: 0rem;
+    padding-top: 5.625rem ;
+}
+.top_container>h1 {
+    margin: 0rem;
+    font-family: 'sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;   
+    line-height: 2; 
+}
+.top_container>p{
+    font-size: 2.5rem;
+    margin-top: 0rem;
+}
+.bottom-cloud{
+    position: absolute;
+    top: 20rem;
+    left: 10rem;
+}
+.top-cloud {
+    position: absolute;
+    top: 5rem;
+    right: 10rem;
+}
+.mountain{
+    width: 50%;
+}
+.profile{
+    width: 10rem;
+}
+h2{
+    color: #66BFBF;
+    font-weight: normal;
+}
+.computer-image{
+    width: 25%;
+    float: left;
+    /*clear is act as a anti float*/
+    margin-right: 30px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.gym{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.description{
+    clear: left;
+}
+.btn {
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: 'merriweather',
+        sans-seri ;
+    color:#00d591 ;
+    font-size: 22px;
+    background: rgb(157, 251, 220);
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;   
+}
+.hr{
+    width: 10rem;
+    border-style: dotted none none none;
+    border-width: 0.5rem;
+    border-color: rgb(157, 251, 220);
+    height: 5rem;
+}
+.bottom-container{
+    background-color: rgb(157, 251, 220) ;
+}
+.footer-link{
+    color:#00d591 ;
+    margin: 1in;
+}
+.copyright{
+    margin-bottom: 0rem;
+}
