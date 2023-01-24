@@ -2,19 +2,11 @@ console.log("welcome to itunes");
 
 //variables
 let songIndex = 0;
-let audioElement = new Audio ('songs/aa.mp3');
+let audioElement = new Audio ('songs/1.mp3');
 let masterPlay = document.getElementById('masterPlay');
 let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
 let songListPlay = document.getElementsByClassName('songListPlay');
-
-let songs = [
-    {songsName: "Aankhomein mein teri", filePath: "songs/aa.mp3", coverPath: "covers/aa.jpg"},
-    {songsName: "Apna Bna Le", filePath: "songs/ap.mp3.mp3", coverPath: "covers/ap.jpg"},
-    {songsName: "Ram Siya Ram", filePath: "songs/ram.mp3.mp3", coverPath: "covers/ram.jpg"},
-    {songsName: "Tum jo aye", filePath: "songs/tu.mp3", coverPath: "covers/tu.jpg"},
-    {songsName: "Ye tune kya kiya", filePath: "songs/ye.mp3", coverPath: "covers/ye.jpg"},
-]
 
 function makeAllPlay(e, audioElement){
     if(audioElement.paused  ){
